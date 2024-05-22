@@ -14,7 +14,7 @@ const Report = () => {
 
     return (
         <div>
-            <h2 className="title text-center mb-2">Reportes</h2>
+            <h2 className="title text-center mt-4">Reportes</h2>
             <p>Seleccione un reporte para desplegar</p>
             <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report1)}>Reporte Test</button>
             <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report2)}>Reporte Operaciones</button>
