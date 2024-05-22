@@ -14,10 +14,10 @@ const Report = () => {
 
     return (
         <div>
-            <h1 className="title text-center mb-2">Reportes</h1>
+            <h2 className="title text-center mb-2">Reportes</h2>
             <p>Seleccione un reporte para desplegar</p>
-            <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report1)}>Reporte 1</button>
-            <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report2)}>Reporte 2</button>
+            <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report1)}>Reporte Test</button>
+            <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report2)}>Reporte Operaciones</button>
             <div>
             <iframe title="powerbi" width="600" height="400" src={report} allowFullScreen={true}></iframe>
             </div>
