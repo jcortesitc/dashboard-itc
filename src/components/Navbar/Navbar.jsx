@@ -24,15 +24,16 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Features
+                            <a className="nav-link" target="_blank" href="https://drive.google.com/open?id=1VGU7t5dfYa33Uk5DmpssvxcuRx4ROGga&usp=drive_fs">
+                                <img src="../../src/assets/drive.png" alt="" width={"30"} className="me-2" />
+                                Drive Operaciones
                             </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#">
                                 Pricing
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a className="nav-link disabled">Disabled</a>
                         </li>
