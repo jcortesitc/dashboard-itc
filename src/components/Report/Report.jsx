@@ -17,9 +17,15 @@ const Report = () => {
             <h2 className="title text-center mt-4">Reportes</h2>
             <p>Seleccione un reporte para desplegar</p>
             <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report1)}>Tablero Operaciones</button>
+            <a href={report} target="_blank">
+            <button className="btn btn-primary mx-1">
+               <img src="../../src/assets/power-bi-icon.png" width={"15"} alt="" className='me-2' />
+            Abrir en nueva pestaña
+            </button>
+            </a>   
             <button className="btn btn-primary mx-1" onClick={() => setReport(pbi_report2)}>Reporte Operaciones</button>
             <div>
-            <iframe title="powerbi" width="800" height="600" src={report} allowFullScreen={true}></iframe>
+                <iframe title="powerbi" width="800" height="600" src={report} allowFullScreen={true}></iframe>
             </div>
         </div>
     )
