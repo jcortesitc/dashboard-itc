@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary" width="100vh">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary" width="800px">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                 <img src="../../src/assets/logo1.png" alt=""width={"90"} height={"30"} />
@@ -29,16 +29,27 @@ const Navbar = () => {
                                 Drive Operaciones
                             </a>
                         </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Pricing
+                        <li className="nav-item">
+                            <a className="nav-link" href="http://database.administrador.vip/_/" target="_blank">
+                                Database
                             </a>
-                        </li> */}
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link disabled">Disabled</a>
                         </li>
                         <li>
-                            <a className="nav-link disabled"></a>
+                            <a className="nav-link disabled">
+                                Disabled
+                            </a>
+                        </li>
+                        <li>
+                            <a className="nav-link disabled">
+                                Disabled
+                            </a>
+                        </li>                        <li>
+                            <a className="nav-link disabled">
+                                Disabled
+                            </a>
                         </li>
                     </ul>
                 </div>
