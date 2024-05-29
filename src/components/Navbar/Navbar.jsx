@@ -3,7 +3,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary" width="800px">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                <img src="../../src/assets/logo1.png" alt=""width={"90"} height={"30"} />
+                    <img src="../../src/assets/logo1.png" alt="" width={"90"} height={"30"} />
                 </a>
                 <button
                     className="navbar-toggler"
@@ -35,11 +35,13 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
+                            <a className="nav-link" href="https://pocketbase.io/docs/" target="_blank">
+                                Documentación DB
+                            </a>
                         </li>
                         <li>
-                            <a className="nav-link disabled">
-                                Disabled
+                            <a className="nav-link " href="https://itconsultants.cl" target="_blank">
+                                Odoo ITC
                             </a>
                         </li>
                         <li>
